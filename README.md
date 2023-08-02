@@ -1,12 +1,7 @@
 
-# Setup Docker Para Projetos Laravel
+# Setup Laravel + adminlte + auth com Docker
 ### Passo a passo
 Clone Repositório
-
-Copie os arquivos docker-compose.yml, Dockerfile e o diretório docker/ para o seu projeto
-```sh
-cp -r setup-docker-laravel/* seu-projeto/
-```
 
 Crie o Arquivo .env
 ```sh
@@ -14,7 +9,7 @@ cd seu-projeto/
 cp .env.example .env
 ```
 
-Atualizar as variáveis de ambiente do arquivo .env
+Atualize as variáveis de ambiente do arquivo .env
 ```dosini
 APP_NAME=MeuProjeto
 APP_URL=http://localhost:8989
